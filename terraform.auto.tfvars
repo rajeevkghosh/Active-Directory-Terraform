@@ -12,6 +12,7 @@ authorized_networks = [
 
 domain_name        = "tfgen.org.com"
 target_domain_name = "example-gcp.com"
+project            = "tokyo-nomad-323506"
 
 target_dns_ip_addresses = [
   "10.1.0.100",
