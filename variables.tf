@@ -1,9 +1,9 @@
 variable "domain_name" {
-  type    = string
+  type = string
 }
 
 variable "locations" {
-  
+
   description = "locations"
   type        = set(string)
   default     = []
@@ -11,23 +11,23 @@ variable "locations" {
 
 variable "reserved_ip_range" {
 
-    description = "reserved IP range"
-    type    = string
+  description = "reserved IP range"
+  type        = string
 }
 
 variable "authorized_networks" {
-  
+
   description = "List of authorized Networks"
   type        = set(string)
   default     = []
 }
 
 variable "target_domain_name" {
-  type    = string
+  type = string
 
 }
 variable "target_dns_ip_addresses" {
-  
+
   description = "Target DNS IP addresses"
   type        = set(string)
   default     = []
@@ -36,7 +36,7 @@ variable "target_dns_ip_addresses" {
 variable "trust_handshake_secret" {
 
   description = "Trust Handshake Secret"
-  type        = set(string)
+  type        = string
   sensitive   = true
 
 }
