@@ -1,2 +1,4 @@
 #ignoring .tarraform files
-/.terraform
+.terraform
+*.terraform
+.gitignore
