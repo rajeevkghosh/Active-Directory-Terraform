@@ -1,24 +1,20 @@
 locations = [
-  "us-central1",
-  "us-east1",
-  "us-west1"
+  "northamerica-northeast1"
 ]
 
 authorized_networks = [
-  "custom-vpc-1",
+  "custom-vpc-1", 
   "custom-vpc-2",
   "custom-vpc-3"
 ]
 
-domain_name        = "tfgen.org.com"
+domain_name        = "dev.emergence."
 target_domain_name = "example-gcp.com"
-project            = "tokyo-nomad-323506"
+project            = "th-sharedservices-devqa"
 
 target_dns_ip_addresses = [
-  "10.1.0.100",
-  "10.1.0.101",
-  "10.1.0.102"
+  "10.31.29.138"
 ]
 
 trust_handshake_secret = "Testing1!"
-reserved_ip_range = "10.0.0.1/24"
+reserved_ip_range = "10.75.1.0/24"
